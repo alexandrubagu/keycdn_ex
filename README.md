@@ -63,7 +63,7 @@ Usage:
 
 ```elixir
   iex> client = KeyCDN.Client.new(<API_KEY>)
-  iex> KeyCDN.purge_zone_cache(client, <zone_id>, [
+  iex> KeyCDN.purge_zone_url(client, <zone_id>, [
     "example.com/style.css",
     "example.com/image.png"
   ])
