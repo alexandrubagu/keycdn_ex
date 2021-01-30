@@ -1,5 +1,7 @@
 defmodule KeyCDN do
-  @moduledoc false
+  @moduledoc """
+  Elixir package for the KeyCDN API
+  """
 
   alias KeyCDN.Client
 
