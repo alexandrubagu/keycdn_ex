@@ -29,7 +29,7 @@ defmodule KeyCDN.MixProject do
   defp elixirc_paths(_), do: ["lib"]
 
   defp description() do
-    "A few sentences (a paragraph) describing the project."
+    "Elixir package for the KeyCDN API"
   end
 
   defp package() do
@@ -37,7 +37,7 @@ defmodule KeyCDN.MixProject do
       # This option is only needed when you don't want to use the OTP application name
       name: "postgrex",
       licenses: ["Apache-2.0"],
-      links: %{"GitHub" => "https://github.com/elixir-ecto/postgrex"}
+      links: %{"GitHub" => "https://github.com/alexandrubagu/keycdn_ex"}
     ]
   end
 
